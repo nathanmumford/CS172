@@ -15,6 +15,7 @@ using namespace std;
 template<typename T>//create a template
 void shuffle(vector<T>& v)
 {
+	// Joseph: Make sure you #include <time.h>
     srand(time(0));//pseudo-random number generator
     for(int i = 0; i < 10; i++)//for loop to randomly swap elements
     {
